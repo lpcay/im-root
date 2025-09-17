@@ -1,9 +1,10 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
       "source": "/:path*",
       "destination": "https://www.furrys.im",
-      "permanent": true
+      "statusCode": 301
     }
   ]
 }
